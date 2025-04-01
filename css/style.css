@@ -361,11 +361,18 @@ footer {
 }
 
 .fcontent {
+    text-align: center;
+}
+.fcontent a {
+    text-decoration: none;
     font-family: "Spectral SC", serif;
     font-weight: 300;
     color: white;
-    text-align: center;
 }
+.fcontent a:hover {
+    text-decoration: underline;
+}
+
 /* Reds: #8c120a or #760921   Green: #0f755a */
 /* Trailer: https://www.youtube.com/embed/YZZFlcE0fWE */
 /* Webkit scrollbar is available for most browsers excluding Firefox https://caniuse.com/?search=webkit%20scrollbar */
